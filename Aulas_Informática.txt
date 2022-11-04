@@ -1,0 +1,88 @@
+Tirar o print do IPv4:
+
+1.Clicar em rede (no ícone computador na barra de tarefas) com o batão direito.
+2.Abrir configurações de rede e internet
+3.Central de rede e compartilhamento
+4.Ethernet
+5.Detalhes
+6.Alt + PrintScr
+7.Colar no Paint
+
+Alterar a senha na MV:
+
+Explorador de arquivos, Este Computador, gerenciar, usuarios e grupos, usuarios, alterar senha (suporte@2022)
+
+
+
+
+Ver configurações do computador:
+
+1.Ir para a janela de pesquisa e digitar: cmd
+2.Digitar no prompt de comando: ipconfig
+
+ping <endereço>
+trcert <endereço> (ver o caminho até o destino)
+
+Cisco Paket Tracer (entrar como visitante - guest/comfirmar guest)
+
+Levar um switch, um lap top e um pc para a área de trabalho e ligar cada um deles (computadores) ao switch através do fio preto
+
+Ligar dois switchs entre si: cabo cruzado - crossover (preto pontilhado)
+
+Topologia estrela: um switch e todos os computadores se ligam nele.
+
+Configurar IP (PC): clica no PC, desktop, IP configuration, IPv4 Address (192.168.0.1), Subnet Mask (255.255.255.252)
+
+Configurar IP (lap top): clica no lap top, desktop, IP configuration, IPv4 Address (192.168.0.2), Subnet Mask (255.255.255.252)
+
+Verficar se um conversa com o outro: Clicar em um deles (computadores), desktop, Prompt de comando, digitar ipconfig (aparece os dados do computador selecionado), ping <endereço do outro computador> <enter>
+
+
+
+hosts (computadores: celulares/televisão/lap top/notebook, enfim, tudo que está conectado à internet)
+
+2 hosts (Máscara classe C: 255.255.255.0)
+
+Rede: 192.168.0.0
+
+11111111.11111111.11111111.11111100
+
+2^2 = 4 - 2 = 2 hosts(conexões permitidas)
+
+Máscara classe C: 255.255.255.252
+
+1ªRede:192.168.0.0/30 - sagrado (net ID)
+
+192.168.0.1/30 (1ª subrede)
+192.168.0.2/30 (2ª subrede)
+
+192.168.0.3/30 (brodcast) - sagrado
+
+2ªRede:192.168.0.4/30
+
+3ªRede:192.168.0.8/30
+
+4ªRede:192.168.0.16/30
+
+4 hosts (Máscara classe C: 255.255.255.0)
+
+Rede: 192.168.0.0
+
+11111111.11111111.11111111.11111000
+
+2^3 = 8 - 2 = 6 hosts(conexões permitidas)
+
+Máscara classe C: 255.255.255.248
+
+1ªRede:192.168.0.0/29 - sagrado (net ID)
+
+192.168.0.1/29 (1ª subrede)
+192.168.0.2/29 (2ª subrede)
+
+192.168.0.7/29 (brodcast) - sagrado
+
+2ªRede:192.168.0.8/30
+
+3ªRede:192.168.0.16/30
+
+4ªRede:192.168.0.24/30
